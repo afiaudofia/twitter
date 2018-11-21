@@ -1,0 +1,34 @@
+{
+  "name": "makeschool-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "dateformat": "^3.0.3",
+    "http-server": "^0.9.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-beautiful-dnd": "^10.0.1",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-scripts": "^1.1.0",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "twitter-proxy": "^2.0.0"
+  },
+  "scripts": {
+    "start-server": "node server.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint-plugin-flowtype": "^2.41.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1"
+  }
+}

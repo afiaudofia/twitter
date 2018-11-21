@@ -1,0 +1,84 @@
+.main-wrapper {
+  background: #f9f9f9;
+}
+.dropArea{
+    background: red;
+    /* height: 800px; */
+}
+header {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding: 10px 0;
+    background: #FFFFFF;
+  }
+  .settingbox {
+    width: 200px;
+    position: absolute;
+    top: 15px;
+    right: 5%;
+  }
+  .blog-header-logo {
+    font-size: 1.5em;
+    font-weight: normal;
+  }
+  .blog-header-logo span {
+   color: olivedrab;
+   font-weight: 200;
+  }
+  .tweetbox {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .tweetbox .tweet_text{ 
+    font-size: 12px;
+    color: #666;
+    border-bottom: 1px solid #ccc;
+  }
+  .tweetbox .user_mentions{ 
+    font-size: 12px;
+    color: #666;
+  }
+  .tweetbox .tweet_url{ 
+    font-size: 11px;
+    padding: 5px;
+  }
+  .tweetbox .tweet_date{ 
+    font-size: 11px;
+    padding-top: 5px;
+  }
+  .tweetbox h2.small { 
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  .tweetbox span.badge { 
+    font-size: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-weight: 400;
+  }
+  .tweetbox:hover {
+    background: #fff;
+    box-shadow: 0 10px 20px -10px #777777;
+    transition: .5s;
+    cursor: pointer;
+  }
+  .loader {
+    border: 3px solid #f3f3f3;
+    border-top-color: #3498db;
+    border-bottom-color: rgb(228, 202, 69);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin .5s linear infinite;
+    margin: 0 auto;
+  }
+  @keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+  }
+  
